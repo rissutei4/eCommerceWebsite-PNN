@@ -1,0 +1,314 @@
+@media only screen and (max-width: 1025px) {
+  header .wholeMenu {
+    .brandCont {
+      width: 500px;
+
+      .brandName {
+        padding-left: 100px;
+      }
+
+      span {
+        text-align: center;
+      }
+    }
+
+    .hamburgerMenu {
+      width: 480px;
+
+      .hambBtn.active {
+        cursor: pointer;
+        position: fixed;
+        left: 30%;
+        top: 10px;
+        z-index: 12;
+        color: black;
+      }
+
+      .navMainInfo.active {
+        max-width: 350px;
+
+        ul {
+          position: fixed;
+          width: 100%;
+          left: 0;
+          top: 0;
+          height: 100vh;
+          max-width: 350px;
+          flex-direction: column;
+          justify-content: center;
+          z-index: 10;
+          background-color: #fafafa;
+          padding: 50px 30px 30px;
+
+          li {
+            margin-left: 0;
+            margin-bottom: 12px;
+
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .newsDiscounts {
+    .smallCard {
+      .productDiscountInformation h4 {
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+  }
+  .knittedClothesTips {
+    .knittedBlogImg {
+      max-width: 568px;
+      width: 100%;
+    }
+  }
+  .commentatorReviews {
+    .review {
+      width: 450px;
+    }
+  }
+  .aboutContactDelivery {
+    .deliverySection {
+      .deliveryPaymentCard {
+        height: 550px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .hambBtn.active {
+    left: 40% !important;
+  }
+  .PopularNowCatalog {
+    .catalogPreviewCarousel {
+      .owl-next {
+        right: 10px;
+      }
+
+      .productCard {
+        width: 225px !important;
+
+        .productImage {
+          height: 320px;
+        }
+      }
+    }
+  }
+  header .wholeMenu {
+    .hamburgerMenu {
+      width: 400px !important;
+    }
+
+    .brandCont {
+      .brandName {
+        padding-left: 85px !important;
+      }
+    }
+  }
+  .commentatorReviews {
+    .owl-next {
+      right: 30px !important;
+    }
+
+    .owl-prev {
+      left: -7px !important;
+    }
+
+    .review {
+      width: 330px !important;
+    }
+  }
+  .deliverySection {
+    .deliveryPaymentCard {
+      margin-bottom: 20px;
+      height: 520px;
+    }
+  }
+
+  .cardLabelNews, .cardLabelDiscount {
+    top: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .hambBtn.active {
+    left: 70% !important;
+  }
+  header .wholeMenu {
+    .brandCont {
+      .brandName {
+        padding-left: 25px !important;
+      }
+    }
+  }
+  .newsDiscounts .smallCard {
+    margin: 15px;
+  }
+  .PopularNowCatalog .catalogPreviewCarousel {
+    .owl-prev {
+      left: 10px;
+    }
+
+    .productCard {
+      width: 182px !important;
+
+      .productImage {
+        height: 280px !important;
+
+        button {
+          border: none;
+        }
+      }
+    }
+  }
+  .aboutContactDelivery .deliverySection .deliveryPaymentCard {
+    height: auto !important;
+  }
+  .commentatorReviews {
+    .owl-next {
+      right: 43px !important;
+    }
+
+    .owl-prev {
+      left: 8px !important;
+    }
+  }
+  footer {
+    h4 {
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .testimonials .review {
+    margin: 0 auto;
+  }
+  .slideHeading {
+    h3 {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .smallCard {
+    max-width: 300px !important;
+  }
+  .bigCard {
+    max-width: 300px !important;
+  }
+  .PopularNowCatalog .catalogPreviewCarousel .productCard {
+    width: 159px !important;
+
+    .productImage {
+      height: 238px !important
+    }
+  }
+  .testimonials {
+    .commentatorReviews {
+      .owl-nav {
+        top: 43% !important;
+
+        .owl-prev {
+          left: 5px !important;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .testimonials {
+    .commentatorReviews {
+      .owl-nav {
+        top: 43% !important;
+
+        .owl-prev {
+          left: 1px !important;
+
+          &:after {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+          }
+        }
+
+        .owl-next {
+          right: 32px;
+
+          &:after {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .testimonials .review .commentAuthorInfo .authorShopRating label {
+    font-size: 17px !important;
+  }
+  .commentatorReviews .review {
+    width: 285px !important;
+  }
+  .testimonials .commentatorReviews .owl-nav {
+    .owl-prev {
+      left: 5px !important;
+    }
+
+    .owl-next {
+      right: 34px !important;
+    }
+  }
+  .PopularNowCatalog .catalogPreviewCarousel .productCard {
+    width: 130px !important;
+
+    .productHeading {
+      h4.productName {
+        a {
+          font-size: 17px;
+        }
+      }
+
+      .priceBuy {
+        .buyButton {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .productImage {
+      height: 197px !important;
+      margin-bottom: 10px;
+    }
+  }
+  .PopularNowCatalog ul#productTabs li a {
+    font-size: 14px;
+  }
+  .smallCard {
+    max-width: 278px !important;
+    height: 351px !important;
+  }
+  .bigCard {
+    max-width: 270px !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
