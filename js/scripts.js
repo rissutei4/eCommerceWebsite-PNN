@@ -8,8 +8,6 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         autoplayTimeout: 3000,
         smartSpeed: 3000,
-        animateIn: 'ease-in',
-        animateOut: 'ease-out',
         responsive: {
             0: {
                 items: 1

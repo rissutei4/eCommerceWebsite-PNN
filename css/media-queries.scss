@@ -231,6 +231,11 @@
 }
 
 @media only screen and (max-width: 360px) {
+  .productCardImage {
+    i {
+      left: -9px !important;
+    }
+  }
   .testimonials {
     .commentatorReviews {
       .owl-nav {
@@ -310,5 +315,22 @@
   }
   body {
     overflow-x: hidden;
+  }
+  .addToShoppingCart {
+    i {
+      left: 0 !important;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-top: 10px;
+        max-width: 100px;
+      }
+    }
+  }
+  .PopularNowCatalog {
+    .owl-nav {
+      top: 27% !important;
+    }
   }
 }
